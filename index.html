@@ -2,18 +2,34 @@
   <head>
     <title>familyguyfan.club</title>
     <style>
+      .abv {
+        color:white;
+        z-index:999;
+        position:absolute;
+        font-family:Helvetica, Arial, sans-serif;
+        mix-blend-mode:difference;
+        padding-left:6%;
+      }
+      .abv h1 {
+        margin:0;
+      }
       body {
         margin:0;
         padding:0;
+        background:black;
       }
       video {
         width:100%;
         height:100%;
         background:black;
+        z-index:99;
       }
     </style>
   </head>
   <body>
+    <div class="abv">
+      <h2>familyguyfan.club</h2>
+    </div>
     <video controls autoplay loop>
       <source src="/epic.webm" type="video/webm">
       <source src="/epic.mp4" type="video/mp4">
